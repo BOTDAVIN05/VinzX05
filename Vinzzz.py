@@ -8,8 +8,6 @@ try:
     import os
     import platform
     import sys
-    from colorama import Fore
-except ModuleNotFoundError as e:
 exit()
 
 # DEF & CLASS
