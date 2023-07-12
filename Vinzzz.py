@@ -10,13 +10,6 @@ try:
     import sys
 
 # DEF & CLASS
-
-def clear_text():
-    if platform.system().upper() == "WINDOWS":
-        os.system('cls')
-    else:
-        os.system('clear')
-
 def status_print(ip,port,thread_id,rps,path_get):
     print(f"{Fore.YELLOW}FLOODING {Fore.LIGHTYELLOW_EX}HTTP{Fore.WHITE} {Fore.WHITE}---> {Fore.BLUE}TARGET{Fore.WHITE}={ip}:{port} {Fore.LIGHTBLUE_EX}PATH{Fore.WHITE}={path_get} {Fore.CYAN}RPS{Fore.WHITE}={rps} {Fore.LIGHTCYAN_EX}ID{Fore.WHITE}={thread_id}{Fore.RESET}")
 def generate_url_path_pyflooder(num):
