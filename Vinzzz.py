@@ -8,7 +8,6 @@ try:
     import os
     import platform
     import sys
-exit()
 
 # DEF & CLASS
 
