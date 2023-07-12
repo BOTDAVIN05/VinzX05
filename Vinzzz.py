@@ -10,8 +10,7 @@ try:
     import sys
     from colorama import Fore
 except ModuleNotFoundError as e:
-    print(f"{e} CAN'T IMPORT . . . .")
-    exit()
+exit()
 
 # DEF & CLASS
 
